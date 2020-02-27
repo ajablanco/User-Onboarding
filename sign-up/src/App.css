@@ -1,0 +1,134 @@
+body {
+  background-color: steelblue;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+div.form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+}
+
+form {
+  background-color: whitesmoke;
+  width: 30%;
+  padding-bottom: 1.7%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  border-radius: 6px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 3%;
+  margin-left: 10%;
+}
+
+input#name {
+  width: 300px;
+  height: 30px;
+  margin-top: 1%;
+}
+input#email {
+  width: 300px;
+  height: 30px;
+  margin-top: 1%;
+}
+input#password {
+  width: 300px!important;
+  height: 30px;
+  margin-top: 1%;
+}
+
+
+
+a{
+  display: none;
+}
+
+button {
+  height: 40px;
+  width: 300px;
+  background-color: royalblue;
+  color: white;
+  font-size: 1rem;
+  margin-top: 2%;
+}
+
+p.errors {
+  color: red;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2%;
+}
+
+pre {
+  width: 100%;
+}
+
+::placeholder {
+  font-size: 1rem;
+}
+p {
+  font-size: .7rem;
+  color: royalblue;
+  margin: 1%;
+}
+
+select.food-select {
+  width: 300px;
+  height: 30px;
+  font-size: 1rem;
+}
+
+.termsBox {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
